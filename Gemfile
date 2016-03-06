@@ -26,7 +26,7 @@ gem 'kaminari'
 gem 'omniauth'
 gem 'omniauth-identity'
 gem 'pg'
-gem 'pry-byebug'
+gem 'pry-byebug', group: :development
 gem 'pry-rails'
 gem 'rb-readline'
 gem 'redis-rails'
@@ -41,6 +41,7 @@ gem 'ruby-prof'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 gem 'mysql2'
+gem 'cequel'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
