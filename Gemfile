@@ -25,23 +25,25 @@ gem 'execjs'
 gem 'kaminari'
 gem 'omniauth'
 gem 'omniauth-identity'
-gem 'pg'
 gem 'pry-byebug', group: :development
 gem 'pry-rails'
+gem 'rack-cors', :require => 'rack/cors'
 gem 'rb-readline'
-gem 'redis-rails'
-gem 'ridgepole'
 gem 'unicorn'
 
 #group :development, :staging do
 gem 'rspec-rails'
-gem 'ruby-prof'
+gem 'ruby-prof', group: :development
 #end
 
-# Use sqlite3 as the database for Active Record
+# DataStore related gems
+gem 'pg'
 gem 'sqlite3'
 gem 'mysql2'
 gem 'cequel'
+gem 'redis-rails'
+gem 'ridgepole'
+gem 'activerecord-import'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
