@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails'
+gem 'rails', '~> 4.2.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -43,7 +43,7 @@ gem 'pg'
 gem 'sqlite3'
 gem 'mysql2'
 gem 'cequel'
-gem 'redis', '3.3.0'
+gem 'redis'
 gem 'redis-rails'
 gem 'ridgepole'
 gem 'activerecord-import'
@@ -57,5 +57,4 @@ gem 'activerecord-import'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-# gem 'csv'
 # gem 'newrelic_rpm'
