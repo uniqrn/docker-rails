@@ -32,6 +32,7 @@ gem 'rb-readline'
 
 # Use Puma as the app server
 #gem 'puma', '~> 3.0'
+gem 'puma'
 gem 'unicorn'
 
 # DataStore related gems
@@ -42,7 +43,7 @@ gem 'cequel'
 # Use Redis adapter to run Action Cable in production
 gem 'redis'
 gem 'redis-rails'
-gem 'ridgepole', '~> 0.6.5.beta'
+gem 'ridgepole'
 gem 'activerecord-import'
 
 # Use ActiveModel has_secure_password
