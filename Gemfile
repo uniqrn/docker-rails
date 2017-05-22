@@ -54,6 +54,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'pg'
+gem 'redis-namespace'
 gem 'redis-rails'
 gem 'ridgepole'
 gem 'pry-rails'
