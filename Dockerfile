@@ -1,5 +1,5 @@
 FROM ruby:latest
-MAINTAINER unicorn research Ltd
+LABEL maintainer "unicorn research Ltd"
 
 ENV DOCKERIZE_VERSION v0.3.0
 RUN wget https://github.com/jwilder/dockerize/releases/download/$DOCKERIZE_VERSION/dockerize-linux-amd64-$DOCKERIZE_VERSION.tar.gz \
