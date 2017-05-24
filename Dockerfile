@@ -10,4 +10,4 @@ COPY gemrc /root/.gemrc
 COPY Gemfile /tmp/Gemfile
 WORKDIR /tmp
 
-RUN bundle install -j 4 --without test development
+RUN bundle install -j 4
