@@ -9,4 +9,5 @@ RUN wget https://github.com/jwilder/dockerize/releases/download/$DOCKERIZE_VERSI
 ADD Gemfile /tmp/Gemfile
 WORKDIR /tmp
 
+RUN gem update --system
 RUN bundle update -j 4
