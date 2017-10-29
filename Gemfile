@@ -55,6 +55,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'pg'
+gem 'cassandra-driver'
 gem 'redis-namespace'
 gem 'redis-rails'
 gem 'ridgepole'
