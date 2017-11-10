@@ -10,4 +10,4 @@ ADD Gemfile /tmp/Gemfile
 WORKDIR /tmp
 
 RUN gem update --system
-RUN bundle update -j 4
+RUN bundle update
