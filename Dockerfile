@@ -11,4 +11,4 @@ COPY Gemfile /tmp/Gemfile
 WORKDIR /tmp
 
 RUN gem update --system
-RUN bundle install -j 4 --without test development
+RUN bundle install --without test development
