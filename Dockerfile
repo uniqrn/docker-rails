@@ -11,5 +11,5 @@ COPY Gemfile /tmp/Gemfile
 WORKDIR /tmp
 
 RUN gem update --system
-ENV BUNDLE_GEMFILE /opt/Gemfile
 RUN bundle install --without test development
+ENV BUNDLE_GEMFILE /opt/Gemfile
