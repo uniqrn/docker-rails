@@ -11,3 +11,4 @@ WORKDIR /tmp
 
 RUN gem update --system
 RUN bundle update
+ENV BUNDLE_GEMFILE /opt/Gemfile
