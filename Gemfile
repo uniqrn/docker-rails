@@ -69,3 +69,6 @@ gem 'rack-cors', :require => 'rack/cors'
 gem 'activerecord-import'
 gem 'sidekiq'
 gem 'webpush'
+
+# some specific packages
+gem 'jan'
