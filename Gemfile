@@ -40,6 +40,9 @@ group :development, :test do
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
   gem 'letter_opener_web'
+  gem 'omniauth'
+  gem 'omniauth-identity'
+  gem 'omniauth-google-oauth2'
 end
 
 group :development do
