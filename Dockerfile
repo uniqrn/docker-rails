@@ -8,7 +8,7 @@ RUN wget https://github.com/jwilder/dockerize/releases/download/$DOCKERIZE_VERSI
 
 RUN apt-get update && apt-get install -y --no-install-recommends libjemalloc1 \
     && rm -rf /var/lib/apt/lists/*
-ENV LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libjemalloc.so.1
+ENV LD_PRELOAD /usr/lib/x86_64-linux-gnu/libjemalloc.so.1
 
 COPY gemrc /root/.gemrc
 COPY Gemfile /tmp/Gemfile
