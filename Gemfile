@@ -79,5 +79,8 @@ gem 'activerecord-import'
 gem 'sidekiq'
 gem 'webpush'
 
+gem 'jwt'
+gem 'rbnacl'
+
 # some specific packages
 gem 'jan'
