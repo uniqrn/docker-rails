@@ -6,7 +6,7 @@ RUN wget https://github.com/jwilder/dockerize/releases/download/$DOCKERIZE_VERSI
     && tar -C /usr/local/bin -xzvf dockerize-linux-amd64-$DOCKERIZE_VERSION.tar.gz \
     && rm dockerize-linux-amd64-$DOCKERIZE_VERSION.tar.gz
 
-RUN apt-get update && apt-get install -y --no-install-recommends libjemalloc1 \
+RUN apt-get update && apt-get install -y --no-install-recommends libjemalloc1 libsodium-dev \
     && rm -rf /var/lib/apt/lists/*
 ENV LD_PRELOAD /usr/lib/x86_64-linux-gnu/libjemalloc.so.1
 
