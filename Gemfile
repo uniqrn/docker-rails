@@ -81,6 +81,3 @@ gem 'webpush'
 
 gem 'jose'
 gem 'rbnacl'
-
-# some specific packages
-gem 'jan'
