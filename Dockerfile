@@ -1,7 +1,7 @@
 FROM uniqrn/ruby:v2.6
 LABEL maintainer "unicorn research Ltd"
 
-RUN apt-get update && apt-get install -y --no-install-recommends libjemalloc1 libsodium-dev \
+RUN apt-get update && apt-get install -y --no-install-recommends libjemalloc2 libsodium-dev \
     && rm -rf /var/lib/apt/lists/*
 ENV LD_PRELOAD /usr/lib/x86_64-linux-gnu/libjemalloc.so.2
 
