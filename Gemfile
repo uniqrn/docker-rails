@@ -45,7 +45,7 @@ group :development, :test do
   gem 'selenium-webdriver'
   # Easy installation and use of chromedriver to run system tests with Chrome
   gem 'webdrivers'
-  gem 'letter_opener_web'
+  # gem 'letter_opener_web'
 end
 
 group :development do
