@@ -11,12 +11,12 @@ gem 'rails', '~> 5.2'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Puma as the app server
-gem 'puma', '~> 3.7'
+gem 'puma', '~> 3.12'
 gem 'puma_worker_killer'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3'
 # See https://github.com/rails/execjs#readme for more supported runtimes
-gem 'therubyracer', platforms: :ruby
+gem 'mini_racer', platforms: :ruby
 
 gem 'bootsnap', require: false
 
@@ -55,7 +55,7 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem 'pg', '~> 0.21.0'
+gem 'pg', '~> 1.1'
 gem 'cassandra-driver'
 gem 'redis-namespace'
 gem 'redis-rails'
@@ -69,3 +69,5 @@ gem 'rack-cors', :require => 'rack/cors'
 gem 'activerecord-import'
 gem 'sidekiq'
 gem 'webpush'
+gem 'jose'
+gem 'rbnacl'
