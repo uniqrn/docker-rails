@@ -46,9 +46,6 @@ group :development, :test do
   # Easy installation and use of chromedriver to run system tests with Chrome
   gem 'webdrivers'
   gem 'letter_opener_web'
-  gem 'omniauth'
-  gem 'omniauth-identity'
-  gem 'omniauth-google-oauth2'
 end
 
 group :development do
