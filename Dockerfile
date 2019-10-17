@@ -125,7 +125,8 @@ RUN mkdir -p "$GEM_HOME" && chmod 777 "$GEM_HOME"
 CMD [ "irb" ]
 
 # setup rails dependencies
-RUN apt-get update && apt-get install -y --no-install-recommends libjemalloc2 libsodium-dev \
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    libjemalloc2 libsqlite3-0 libpq5 libsodium-dev \
     && rm -rf /var/lib/apt/lists/*
 ENV LD_PRELOAD /usr/lib/x86_64-linux-gnu/libjemalloc.so.2
 
