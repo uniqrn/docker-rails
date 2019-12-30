@@ -3,7 +3,7 @@ COPY Gemfile /tmp/Gemfile
 WORKDIR /tmp
 RUN bundle install
 
-FROM uniqrn/ruby:v2.6
+FROM uniqrn/ruby:v2.6 AS production
 LABEL maintainer "unicorn research Ltd"
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
